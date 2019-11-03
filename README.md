@@ -7,7 +7,7 @@
 - implement a simple OS kernel
 
 
-# Test with QEMU
+## Test with QEMU
 generate binary from assembly language
 ```
 $ nasm boot sect.asm -f bin -o boot_sect.bin
