@@ -10,11 +10,11 @@
 # Test with QEMU
 generate binary from assembly language
 ```
-$ nasm boot sect.asm -f bin -o boot sect.bin
+$ nasm boot sect.asm -f bin -o boot_sect.bin
 ```
 Print the binary file (Just for debugging or learning)
 ```
-$ od -t x1 -A n boot sect.bin
+$ od -t x1 -A n boot_sect.bin
 ```
 Start emulation with qemu
 ```
